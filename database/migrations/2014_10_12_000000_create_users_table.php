@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('nama_lengkap');
             $table->string('jurusan');
             $table->string('no_hp');
-            $table->integer('role');
+            $table->integer('role')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

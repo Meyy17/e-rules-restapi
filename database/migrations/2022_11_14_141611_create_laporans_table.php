@@ -21,10 +21,7 @@ return new class extends Migration
             $table->string('tanggal_laporan');
             $table->string('waktu_laporan');
             $table->text('keterangan_laporan');
-            $table->string('longitude');
-            $table->string('latitude');
-            $table->string('foto_laporan');
-            $table->string('video_laporan');
+            $table->string('lokasi');
             $table->boolean('is_valid');
             $table->boolean('is_process');
             $table->timestamps();
